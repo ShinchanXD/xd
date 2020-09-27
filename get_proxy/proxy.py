@@ -48,7 +48,7 @@ def proxy_checker(prox):
 
           proxies=prox,
 
-          timeout=8
+          timeout=7
 
         ).status_code == 200:
 
